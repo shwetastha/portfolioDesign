@@ -1,0 +1,32 @@
+{
+  "name": "portfoliodesign",
+  "version": "1.0.0",
+  "description": "1 page website with portfolio",
+  "main": "index.html",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shwetastha/portfolioDesign.git"
+  },
+  "author": "Shweta Shrestha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shwetastha/portfolioDesign/issues"
+  },
+  "homepage": "https://github.com/shwetastha/portfolioDesign#readme",
+  "devDependencies": {
+    "lite-server": "^2.4.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.12.9"
+  }
+}
