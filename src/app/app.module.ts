@@ -9,15 +9,21 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 
 import 'hammerjs';
 
+import { ProjectComponent } from './project/project.component';
+
+import { MatListModule } from '@angular/material/list';
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ProjectComponent
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     MatToolbarModule,
-    FlexLayoutModule
+    FlexLayoutModule,
+    MatListModule
   ],
   providers: [],
   bootstrap: [AppComponent]
