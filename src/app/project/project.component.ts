@@ -5,7 +5,7 @@ const PORTFOLIOS: Portfolio[] = [
   {
     id: '0',
     name: 'Sales Traker',
-    image: '/portfolioDesign/assets/images/SalesTracker.png',
+    image: './assets/images/SalesTracker.png',
     category: 'mains',
     featured: true,
     label: 'Hot',
@@ -15,7 +15,7 @@ const PORTFOLIOS: Portfolio[] = [
   {
     id: '1',
     name: 'Premium SMS',
-    image: '/portfolioDesign/assets/images/Premium_SMS.png',
+    image: './assets/images/Premium_SMS.png',
     category: 'appetizer',
     featured: false,
     label: '',
