@@ -3,7 +3,5 @@ export  class Portfolio {
     name: string;
     image: string;
     category: string;
-    featured: boolean;
-    label: string;
     description: string;
 }
