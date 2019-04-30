@@ -26,7 +26,7 @@ const PORTFOLIOS: Portfolio[] = [
   {
     id: '3',
     name: 'Clothing Store (Website)',
-    image: './assets/images/Premium_SMS.png',
+    image: './assets/images/ClothingStore-Website.png',
     category: 'HTML, CSS, PHP, JavaScript',
     description: 'This website is a project completed for the course ULI705. This website is a mockup of a simple clothing store website. HTML and CSS is used for the design and display while PHP is use to fetch all the data from the MySQL Database. Javascript has been used for simple validations when adding new items.'
   }
