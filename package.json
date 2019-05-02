@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "ghpages": "npm install && ng build --prod --base-href 'https://shwetastha.github.io/portfolioDesign/' && ngh"
+    "ghpages": "ng build --prod --base-href 'https://shwetastha.github.io/portfolioDesign/' && ngh"
   },
   "private": true,
   "dependencies": {
