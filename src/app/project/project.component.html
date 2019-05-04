@@ -13,6 +13,7 @@
 <div fxLayout="row" fxLayout.sm="column" fxLayout.xs="column" fxLayoutGap="20px"
  fxLayoutAlign.gt-md="space-around center">
 <mat-card fxFlex="0 1 calc(20% - 20px)" *ngFor="let portfolio of portfolios" class="product">
+  <a href={{portfolio.url}}>
     <mat-card-title>{{portfolio.name}}</mat-card-title>
     <mat-card-subtitle>{{portfolio.category}}</mat-card-subtitle>
     <img class="image" mat-card-image src="{{portfolio.image}}" alt="{{portfolio.name}}">
@@ -22,6 +23,7 @@
         {{portfolio.description}}
     </p>
     </mat-card-content>
+  </a>
     </mat-card>
 
 </div>
