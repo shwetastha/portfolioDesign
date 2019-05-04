@@ -4,4 +4,5 @@ export  class Portfolio {
     image: string;
     category: string;
     description: string;
+    url: string;
 }

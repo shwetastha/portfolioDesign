@@ -9,18 +9,20 @@
     </div>
   </div>
 
-  <div fxFlex>
-    <mat-grid-list cols="4" rowHeight="200px">
-      <mat-grid-tile *ngFor="let portfolio of portfolios">
-        <img height="200px" src={{portfolio.image}} alt={{portfolio.name}}>
-        <mat-grid-tile-footer>
-          <h1>{{portfolio.name | uppercase}}</h1>
-        </mat-grid-tile-footer>
-      </mat-grid-tile>
-    </mat-grid-list>
-  </div>
-
-  
+<!-- loop over the products -->
+<div fxLayout="row" fxLayout.sm="column" fxLayout.xs="column" fxLayoutGap="20px"
+ fxLayoutAlign.gt-md="space-around center">
+<mat-card fxFlex="0 1 calc(20% - 20px)" *ngFor="let portfolio of portfolios" class="product">
+    <mat-card-title>{{portfolio.name}}</mat-card-title>
+    <mat-card-subtitle>{{portfolio.category}}</mat-card-subtitle>
+    <img class="image" mat-card-image src="{{portfolio.image}}" alt="{{portfolio.name}}">
+    
+    <mat-card-content>
+    <p>
+        {{portfolio.description}}
+    </p>
+    </mat-card-content>
+    </mat-card>
 
 </div>
-
+</div>
